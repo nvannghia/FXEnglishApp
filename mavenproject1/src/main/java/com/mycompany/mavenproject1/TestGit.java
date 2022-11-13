@@ -9,9 +9,17 @@ package com.mycompany.mavenproject1;
  *
  * @author Joe
  */
-public class Mavenproject1 {
+public class TestGit {
+    private String username;
+    private String password;
+    
+    public TestGit(String usn, String pass){
+        this.username = usn;
+        this.password = pass;
+    }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        TestGit tg = new TestGit("root", "123456789");
+        System.out.printf("User name = %s\n Password = %s",tg.username,tg.password);
     }
 }
