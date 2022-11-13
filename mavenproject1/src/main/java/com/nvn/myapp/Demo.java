@@ -14,6 +14,8 @@ public class Demo {
         System.out.println("I'm MeoUMapDit");
         System.out.println("I'm Dev");
         
+        int a = 9, b = 9;
+        System.out.printf("%d + %d = %d",a,b,a+b);
 
     }
 }
